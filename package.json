@@ -1,0 +1,19 @@
+{
+  "name": "analyze-transcription",
+  "version": "1.0.0",
+  "description": "Analyzes the audio transcription of a meeting between client and customer representative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanDeo18/analyze-transcription.git"
+  },
+  "author": "Rohan Deo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RohanDeo18/analyze-transcription/issues"
+  },
+  "homepage": "https://github.com/RohanDeo18/analyze-transcription#readme"
+}
