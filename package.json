@@ -4,6 +4,7 @@
   "description": "Analyzes the audio transcription of a meeting between client and customer representative",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/RohanDeo18/analyze-transcription/issues"
   },
-  "homepage": "https://github.com/RohanDeo18/analyze-transcription#readme"
+  "homepage": "https://github.com/RohanDeo18/analyze-transcription#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
